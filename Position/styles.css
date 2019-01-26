@@ -1,0 +1,42 @@
+body {
+    height: 1300px;
+    padding: 30px;
+
+    font-family: sans-serif;
+    color: #EDEEF3;
+    background-color: #3a3a3a;
+}
+
+em {
+    color: #ffbf49;
+}
+
+p {
+    border: 2px solid #5bcee8;
+}
+
+.block {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #5bcee8;
+    margin-bottom: 20px;
+
+    font-size: 40px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.container {
+    background-color: #D2B48C;
+    height: 400px;
+    width: 500px;
+}
+
+.blockA {
+    background-color: #c64c28;
+}
+
+.blockB {
+    background-color: #5d8990;
+    
+}

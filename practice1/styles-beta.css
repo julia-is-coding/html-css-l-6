@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.position-practise {
+    background: tan;
+    padding: 30px;
+}
+
+.position-practise p {
+    background: #75bef2; 
+}
+
+.section {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 30px;
+    background: aquamarine;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+
+    background: red;
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.section .x {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section .y {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.section .z {
+    position: relative;
+
+    top: -50px;
+}
+
+.position-practise .a {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+
+    background: orange;
+}
+
+.position-practise .b {
+    position: fixed;
+    top: 0;
+}

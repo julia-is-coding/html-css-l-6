@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.main-container {
+    background: tan;
+    padding: 30px;
+}
+
+.container {
+    position: relative;
+    margin-bottom: 20px;
+    padding: 30px;
+    background: aquamarine;
+}
+
+.container p {
+    background: #75bef2;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+
+    background: red;
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container .square-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.container .square-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* .paragraph-3 {
+    position: relative;
+}
+Когда у div-a относительная позиция и у параграфа внутри него такая же, 
+то div внутри div-a с относительным позиционированием не цепляется за параграф.
+.paragraph-3 .square-3 {
+    position: absolute;
+    left: 0;
+} */
+
+.square-3 {
+    position: relative;
+    /* bottom: 50px; */
+    top: -50px;
+}
+
+.main-container .square-4 {
+    background: orange;
+
+    position: absolute;
+    /* left: 30px; */
+    top: 50px;
+    z-index: 100;
+}
+
+.main-container .square-5 {
+    position: fixed;
+    top: 0;
+    /* z-index: 10; */
+}
